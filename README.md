@@ -30,7 +30,7 @@ Personal portfolio developed with Angular, featuring a dynamic and responsive de
 | **Angular** | Frontend framework |
 | **TypeScript** | Strongly typed logic |
 | **HTML5 / CSS** | Structure & styling |
-| **Vercel / npm** | Development & build tools |
+| **Vercel / npm** | Deployment & build tools |
 
 ---
 
