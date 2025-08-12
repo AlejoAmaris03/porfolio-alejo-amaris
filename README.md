@@ -10,17 +10,17 @@ This portfolio is a showcase of my **projects** and **skills**, built using **An
 
 ---
 
-🌐 Live Demo
+## 🌐 Live Demo
 🔗 *Coming soon*
 
 ---
 
 ## 🚀 Features  
-✅ **Responsive Design** – Mobile, tablet & desktop ready  
-✅ **Component-Based Architecture** – Clean & maintainable code  
-✅ **Project Showcase** – With descriptions, images, and external links  
-✅ **Optimized Performance** – Fast, smooth, and user-friendly  
-✅ **Modern UI/UX** – Minimal, professional, and attractive
+- ✅ **Responsive Design** – Mobile, tablet & desktop ready  
+- ✅ **Component-Based Architecture** – Clean & maintainable code  
+- ✅ **Project Showcase** – With descriptions, images, and external links  
+- ✅ **Optimized Performance** – Fast, smooth, and user-friendly  
+- ✅ **Modern UI/UX** – Minimal, professional, and attractive
 
 ---
 
@@ -39,16 +39,36 @@ This portfolio is a showcase of my **projects** and **skills**, built using **An
 
 ---
 
-🔮 Future Improvements
+## 🔮 Future Improvements
 Planned enhancements to take this portfolio to the next level:
-🏗 Refined Structure – Optimizing component organization for scalability and maintainability
-📄 New Sections – Expanding with experience and a contact me
-🌙 Light Mode Support – Optional theme switch for better user accessibility
-🌍 **Multi-Language Support** – Adding language selection (e.g., English & Spanish) for a wider audience
+- 🏗 Refined Structure – Optimizing component organization for scalability and maintainability
+- 📄 New Sections – Expanding with experience and a contact me
+- 🌙 Light Mode Support – Optional theme switch for better user accessibility
+- 🌍 **Multi-Language Support** – Adding language selection (e.g., English & Spanish) for a wider audience
+
+---
+
+## 🛠️ Installation
+
+1. **Clone the repo**
+   ```bash
+   git clone https://github.com/AlejoAmaris03/porfolio-alejo-amaris.git
+   cd porfolio-alejo-amaris-main
+
+2. **Install dependencies**
+   ```bash
+   npm install
+
+3. **Run the project**
+   ```bash
+   ng serve --open
+
+4. The app should be running at: http://localhost:4200
 
 ---
 
 ## 📄 Licence
 This project is open-source and available under the MIT License.
+
 Made with love by Alejandro Amaris
 
