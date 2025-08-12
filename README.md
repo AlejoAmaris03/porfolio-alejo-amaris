@@ -1,12 +1,12 @@
 # 🌟 Alejo Amaris – Personal Portfolio
 
 <img width="1919" height="912" alt="image" src="https://github.com/user-attachments/assets/511c40c1-2990-4973-8d86-45c2971c5566" />
-*A modern, responsive portfolio built with Angular to showcase my work, skills, and professional journey.*
+A modern, responsive portfolio built with Angular to showcase my work, skills, and professional journey.
 
 ---
 
 ## ✨ Overview  
-This portfolio is a showcase of my **projects** and **skills**, built using **Angular’s powerful component-based architecture**. It offers a smooth and intuitive browsing experience, optimized for all devices. 
+Personal portfolio developed with Angular, featuring a dynamic and responsive design that highlights my projects and skills. Built with reusable components, optimized performance, and intuitive navigation, it reflects my expertise in modern web development and scalable solutions.
 
 ---
 
@@ -29,7 +29,7 @@ This portfolio is a showcase of my **projects** and **skills**, built using **An
 |-------------|---------|
 | **Angular** | Frontend framework |
 | **TypeScript** | Strongly typed logic |
-| **HTML5 / SCSS** | Structure & styling |
+| **HTML5 / CSS** | Structure & styling |
 | **Vercel / npm** | Development & build tools |
 
 ---
@@ -42,9 +42,9 @@ This portfolio is a showcase of my **projects** and **skills**, built using **An
 ## 🔮 Future Improvements
 Planned enhancements to take this portfolio to the next level:
 - 🏗 Refined Structure – Optimizing component organization for scalability and maintainability
-- 📄 New Sections – Expanding with experience and a contact me
+- 📄 New Sections – Expanding with experience and contact me
 - 🌙 Light Mode Support – Optional theme switch for better user accessibility
-- 🌍 **Multi-Language Support** – Adding language selection (e.g., English & Spanish) for a wider audience
+- 🌍 Multi-Language Support – Adding language selection (e.g., English & Spanish) for a wider audience
 
 ---
 
@@ -64,6 +64,29 @@ Planned enhancements to take this portfolio to the next level:
    ng serve --open
 
 4. The app should be running at: http://localhost:4200
+
+---
+
+## 🤝 Contributing
+Contributions are welcome! 🎉  
+
+If you’d like to improve this portfolio — whether it’s fixing bugs, adding features, or enhancing the design — please follow these steps:
+
+1. **Fork the repository**  
+2. **Create a new branch**
+   ```bash
+   git checkout -b feature/your-feature-name
+   
+3. **Make your changes**
+4. **Commit your changes**
+   ```bash
+   git commit -m "Add: description of your changes"
+
+5. **Push to your branch**
+   ```bash
+   git push origin feature/your-feature-name
+   
+6. **Open a Pull Request describing your contribution**
 
 ---
 
