@@ -1,0 +1,46 @@
+* {
+    color: var(--dark-text);
+}
+
+.card {
+    background-color: rgba(2550, 255, 255, .6);
+    border-radius: 30px;
+    cursor: pointer;
+    width: 380px;
+    height: 100%;
+    transition: .3s ease-in-out;
+    animation: fadeInUp 1s ease-in;
+}
+
+.card:hover {
+    transform: scale(.95);
+}
+
+.card-header,
+.card-footer {
+    padding: 15px 20px;
+}
+
+.card-header {
+    text-align: center;
+    border-bottom: 1px solid #000000;
+}
+
+.card-body {
+    padding: 20px 0;
+}
+
+.card-body img {
+    width: 100%;
+    height: 100%;
+}
+
+.card-footer {
+    text-align: justify;
+}
+
+@media screen and (max-width: 860px) {
+    * {
+        font-size: .8rem;
+    }
+}

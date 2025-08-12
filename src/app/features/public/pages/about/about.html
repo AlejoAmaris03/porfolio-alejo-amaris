@@ -1,0 +1,24 @@
+<section class="about general-page-style">
+    <header class="about-header">I'm {{ profile.name }}</header>
+
+    <div class="introduction">
+        <div class="avatar">
+            <img [src]="profile.avatar" alt="Avatar">
+            <p class="welcome-msg">{{ profile.welcomeMessage }}</p>
+        </div>
+
+        <div class="paragraphs">
+            <h1>{{ profile.role }}</h1>
+
+            <p>{{ profile.descriptionParagrahp1 }}</p>
+            <br>
+            <p>{{ profile.descriptionParagrahp2 }}</p>
+        </div>
+    </div>
+
+    <div class="tech-stack-grid">
+        @for(item of techStack; track $index) {
+            <app-tech-stack-card class="card" [stack]="item" />
+        }
+    </div>
+</section>

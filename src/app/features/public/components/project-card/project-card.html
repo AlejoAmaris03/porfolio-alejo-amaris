@@ -1,0 +1,13 @@
+<div class="card" (click)="goToLink(project.link)">
+    <header class="card-header">
+        <h3>{{ project.name }}</h3>
+    </header>
+    
+    <div class="card-body">
+        <img [src]="project.image" [alt]="project.name" />
+    </div>
+
+    <div class="card-footer">
+        <span class="description">{{ project.description }}</span>
+    </div>
+</div>

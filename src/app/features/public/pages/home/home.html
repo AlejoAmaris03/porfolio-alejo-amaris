@@ -1,0 +1,36 @@
+<section class="home general-page-style">
+  <div class="image">
+    <img class="avatar" [src]="profile.avatar" alt="Avatar">
+    <p class="welcome-msg">{{ profile.welcomeMessage }}</p>
+
+    @for(icon of profile.techIcons; track $index) {
+      <img [class]="'animated-icon ' + icon.class" [src]="icon.src" [alt]="icon.alt" />
+    }
+  </div>
+
+  <div class="introduction">
+    <h1>Hi!, I'm {{ profile.name }}</h1>
+    <h1>{{ profile.role }}</h1>
+  </div>
+
+  <div class="description">
+    <header>
+      <h1>{{ profile.descriptionTitle }}</h1>
+    </header>
+
+    <div class="description-grid">
+      <div class="text">
+        <span>
+          <p>{{ profile.descriptionParagraph1 }}</p><br>
+          <p>{{ profile.descriptionParagraph2 }}</p>
+        </span>
+
+        <button class="about-btn" routerLink="/about">Know me better</button>
+      </div>
+
+      <img [src]="profile.descriptionImage" alt="Code example">
+    </div>
+  </div>
+
+  <button class="projects-btn" routerLink="/projects">Check my projects 🚀</button>
+</section>

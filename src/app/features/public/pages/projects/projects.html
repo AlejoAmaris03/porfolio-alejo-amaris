@@ -1,0 +1,24 @@
+<section class="projects general-page-style">
+    <div class="tech-stack">
+        <h3>My Tech Stack</h3>
+
+        @for(slide of slideIterations; track $index) {
+            <div class="tools-slide">
+                @for(img of toolsImages; track $index) {
+                    <img [src]="img.src" [alt]="img.alt" [matTooltip]="img.matToolTip">
+                }
+            </div>
+        }
+    </div>
+
+    <div class="projects-content">
+        <mat-icon class="left-arrow" (click)="slideLeft()">keyboard_arrow_left</mat-icon>
+        <mat-icon class="right-arrow" (click)="slideRight()">keyboard_arrow_right</mat-icon>
+
+        <div class="projects-slide" id="projects-slider">
+            @for(project of projects; track $index) {
+                <app-project-card [project]="project" />
+            }
+        </div>
+    </div>
+</section>

@@ -1,0 +1,226 @@
+.home {
+    gap: 3rem;
+}
+
+.image {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to right bottom, var(--background-light), var(--background-dark));
+    --webkit-box-shadow: 0 0 30px rgba(255, 255, 255, .3);
+    box-shadow: 0 0 30px rgba(255, 255, 255, .3);
+    border-radius: 30px;
+    padding: 1rem;
+    gap: 2rem;
+}
+
+
+.image .avatar {
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    animation: scaleIn 1s ease-out;
+}
+
+.image .welcome-msg {
+    font-size: 1.5rem;
+    font-weight: bold;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 2px solid var(--light-text);
+    width: 0;
+    animation: typing 3s steps(8, end) infinite, blink-caret 0.6s step-end infinite;
+}
+
+.introduction {
+    text-align: center;
+    animation: fadeInUp 1s ease-in;
+}
+
+.introduction h1 {
+    font-weight: 700;
+    font-size: 4rem;
+}
+
+.animated-icon {
+    position: absolute;
+    width: 120px;
+    object-fit: contain;
+    animation: floatIcon 3s ease-in-out infinite;
+}
+
+.spring-boot-icon {
+    bottom: 0;
+    left: -8rem;
+    transform: rotate(-45deg);
+}
+
+.angular-icon {
+    top: 0;
+    right: -8rem;
+    transform: rotate(35deg);
+}
+
+.description {
+    background-color: rgba(2550, 255, 255, .6);
+    padding: 2.5rem;
+    border-radius: 30px;
+    transition: .3s ease-in-out;
+    animation: scaleIn 1s ease-out;
+}
+
+.description:hover {
+    background-color: rgba(2550, 255, 255, .8) ;
+    transform: scale(1.03);
+}
+
+.description h1,
+.description p {
+    color: var(--dark-text);
+}
+
+.description header {
+    margin-bottom: 2rem;
+}
+
+.description-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    justify-content: center;
+    gap: 2rem;
+}
+
+.description-grid .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.description-grid .text span {
+    text-align: justify;
+}
+
+.description-grid img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.description .about-btn {
+    width: fit-content;
+    margin-top: 3rem;
+    background: linear-gradient(to right, var(--background-light), var(--background-dark));
+    border: none;
+    padding: .5rem 1.5rem;
+    border-radius: 30px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.projects-btn {
+    width: 100%;
+    background-color: var(--background-light);
+    border: none;
+    padding: .5rem;
+    border-radius: 30px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+    animation: fadeInUp 1s ease-in;
+}
+
+.projects-btn:hover {
+    transform: scale(1.03);
+}
+
+@keyframes scaleIn {
+    0% { 
+        transform: scale(0.8); 
+        opacity: 0;
+    }
+
+    100% { 
+        transform: scale(1); 
+        opacity: 1; 
+    }
+}
+
+@keyframes floatIcon {
+    0% { 
+        transform: translateY(0) rotate(0deg); 
+    }
+
+    50% { 
+        transform: translateY(-15px) rotate(15deg); 
+    }
+
+    100% { 
+        transform: translateY(0) rotate(0deg); 
+    }
+}
+
+@keyframes typing {
+    0% { 
+        width: 0 
+    }
+
+    50% { 
+        width: 8ch 
+    }
+  
+    100% { 
+        width: 0 
+    }
+}
+
+@media screen and (max-width: 860px) {
+    .image, .description {
+        font-size: .8rem;
+    }
+
+    .description-grid {
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    }
+
+    .animated-icon {
+        width: 100px;
+    }
+
+    .spring-boot-icon {
+        left: -7rem;
+    }
+
+    .angular-icon {
+        right: -7rem;
+    }
+
+    .introduction h1 {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 620px) {
+    .animated-icon {
+        width: 60px;
+    }
+
+    .image .welcome-msg {
+        font-size: 1rem;
+    }
+
+    .spring-boot-icon {
+        left: -4rem;
+    }
+
+    .angular-icon {
+        right: -4rem;
+    }
+
+    .image .avatar {
+        width: 150px;
+        height: 150px;
+    }
+}

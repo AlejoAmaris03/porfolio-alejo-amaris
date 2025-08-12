@@ -1,0 +1,9 @@
+<div class="card">
+    <h3>{{ stack.title }}</h3>
+
+    <ul>
+        @for(stack of stack.stack; track $index) {
+            <li>{{ stack }}</li>
+        }
+    </ul>
+</div>

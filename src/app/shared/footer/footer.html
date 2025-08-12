@@ -1,0 +1,11 @@
+<footer>
+    <p>Developed by Alejandro Amaris 😎</p>
+
+    <div class="links">
+        @for(link of links; track $index) {
+            <a [href]="link.href" target="_blank">
+                <img [src]="link.src" [alt]="link.alt" [matTooltip]="link.matTooltip">
+            </a>
+        }
+    </div>
+</footer>

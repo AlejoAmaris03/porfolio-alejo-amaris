@@ -1,0 +1,144 @@
+.about {
+    gap: 5rem;
+}
+
+.about-header {
+    font-size: 3.5rem;
+    font-weight: 900;
+    animation: fadeInDown 1s ease-in-out;
+}
+
+.introduction {
+    display: flex;
+    gap: 3rem;
+}
+
+.paragraphs {
+    text-align: justify;
+    animation: fadeInLeft 1s ease-in-out;
+}
+
+.paragraphs h1 {
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+}
+
+.avatar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to right bottom, var(--background-light), var(--background-dark));
+    --webkit-box-shadow: 0 0 25px rgba(0, 0, 0, .7);
+    box-shadow: 0 0 25px rgba(0, 0, 0, .7);
+    border-radius: 30px;
+    padding: 1rem;
+    gap: 2rem;
+}
+
+.avatar img {
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    animation: scaleIn 1s ease-out;
+}
+
+.avatar .welcome-msg {
+    font-size: 1.5rem;
+    font-weight: bold;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 2px solid var(--light-text);
+    width: 0;
+    animation: typing 3s steps(6, end) infinite, blink-caret 0.6s step-end infinite;
+}
+
+.tech-stack-grid {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 1.5rem;
+}
+
+.tech-stack-grid .card {
+    transition: .3s ease-in-out;
+}
+
+.tech-stack-grid:hover .card:not(:hover) {
+    transform: scale(.9);
+}
+
+@keyframes scaleIn {
+    0% {
+        transform: scale(0.8);
+        opacity: 0;
+    }
+
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeInLeft {
+    from {
+        opacity: 0;
+        transform: translateX(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes typing {
+    0% {
+        width: 0
+    }
+
+    50% {
+        width: 5ch
+    }
+
+    100% {
+        width: 0
+    }
+}
+
+@media screen and (max-width: 620px) {
+    .avatar img {
+        width: 250px;
+        height: 250px;
+    }
+}
+
+@media screen and (max-width: 860px) {
+    .about-header {
+        font-size: 2rem;
+    }
+
+    .introduction {
+        flex-direction: column;
+    }
+
+    .paragraphs h1 {
+        font-size: 1.5rem;
+    }
+
+    .paragraphs p {
+        font-size: .8rem;
+    }
+}
