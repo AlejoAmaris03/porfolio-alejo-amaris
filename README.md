@@ -1,59 +1,54 @@
-# PortfolioAlejoAmaris
+# 🌟 Alejo Amaris – Personal Portfolio
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.0.5.
+<img width="1919" height="912" alt="image" src="https://github.com/user-attachments/assets/511c40c1-2990-4973-8d86-45c2971c5566" />
+*A modern, responsive portfolio built with Angular to showcase my work, skills, and professional journey.*
 
-## Development server
+---
 
-To start a local development server, run:
+## ✨ Overview  
+This portfolio is a showcase of my **projects** and **skills**, built using **Angular’s powerful component-based architecture**. It offers a smooth and intuitive browsing experience, optimized for all devices. 
 
-```bash
-ng serve
-```
+---
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+🌐 Live Demo
+🔗 *Coming soon*
 
-## Code scaffolding
+---
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+## 🚀 Features  
+✅ **Responsive Design** – Mobile, tablet & desktop ready  
+✅ **Component-Based Architecture** – Clean & maintainable code  
+✅ **Project Showcase** – With descriptions, images, and external links  
+✅ **Optimized Performance** – Fast, smooth, and user-friendly  
+✅ **Modern UI/UX** – Minimal, professional, and attractive
 
-```bash
-ng generate component component-name
-```
+---
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+## 🛠 Tech Stack
+| Technology  | Purpose |
+|-------------|---------|
+| **Angular** | Frontend framework |
+| **TypeScript** | Strongly typed logic |
+| **HTML5 / SCSS** | Structure & styling |
+| **Vercel / npm** | Development & build tools |
 
-```bash
-ng generate --help
-```
+---
 
-## Building
+## 📂 Project Structure
+<img width="205" height="312" alt="image" src="https://github.com/user-attachments/assets/ab2a55b8-da20-4701-b30d-b750b56fc3db" />
 
-To build the project run:
+---
 
-```bash
-ng build
-```
+🔮 Future Improvements
+Planned enhancements to take this portfolio to the next level:
+🏗 Refined Structure – Optimizing component organization for scalability and maintainability
+📄 New Sections – Expanding with experience and a contact me
+🌙 Light Mode Support – Optional theme switch for better user accessibility
+🌍 **Multi-Language Support** – Adding language selection (e.g., English & Spanish) for a wider audience
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+---
 
-## Running unit tests
+## 📄 Licence
+This project is open-source and available under the MIT License.
+Made with love by Alejandro Amaris
 
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
