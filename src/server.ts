@@ -24,10 +24,6 @@ const angularApp = new AngularNodeAppEngine();
  * ```
  */
 
-app.get('/', (req, res) => {
-  res.redirect('/home');
-});
-
 /**
  * Serve static files from /browser
  */
