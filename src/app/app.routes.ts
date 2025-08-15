@@ -18,7 +18,7 @@ export const routes: Routes = [
                 loadComponent: () => import('./features/public/pages/about/about')
             },
             {
-                path: '**',
+                path: '',
                 redirectTo: 'home',
                 pathMatch: 'full'
             }
